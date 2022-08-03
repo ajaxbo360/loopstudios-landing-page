@@ -346,7 +346,7 @@ header {
   }
   &__grid {
     display: grid;
-    gap: 1.3rem;
+    gap: 2.1rem;
 
     @include b.breakpoints-up(medium) {
       display: grid;
@@ -436,7 +436,7 @@ header {
     @include b.breakpoints-up(xlarge) {
       position: absolute;
       top: -5px;
-      right: 39px;
+      right: 0px;
        margin-bottom: 8rem;
     }
   }
