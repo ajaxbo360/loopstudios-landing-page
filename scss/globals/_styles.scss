@@ -1,0 +1,13 @@
+// mixin for our background images:
+
+@mixin backgroundImage($bg-s, $bg-r, $bg-p,$url) {
+
+   
+    background-size: $bg-s;
+    background-repeat: $bg-r;
+    background-position: $bg-p;
+    background-image: url($url);
+
+}
+
+
