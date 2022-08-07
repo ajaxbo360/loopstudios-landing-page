@@ -140,7 +140,7 @@ header {
     transform: translate(-50%, -50%);
 
     h1 {
-      font-size: 3rem;
+      font-size: 2.5rem;
     }
 
     @include b.breakpoints-up(medium) {
@@ -409,6 +409,7 @@ header {
       margin-bottom: 10rem;
       border: none;
       color: v.$white;
+      border: 1px solid v.$black;
       background-color: v.$black;
     }
     @include b.breakpoints-up(xlarge) {
@@ -585,9 +586,10 @@ header {
 
     p {
       margin-top: 2.2rem;
+      text-align: center;
       font-family: v.$primary-font;
       font-weight: 300;
-      font-size: 1.4rem;
+      font-size: 1rem;
       color: v.$dark-gray;
 
       @include b.breakpoints-up(large) {

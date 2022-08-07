@@ -204,7 +204,7 @@ header .hero {
   transform: translate(-50%, -50%);
 }
 header .hero h1 {
-  font-size: 3rem;
+  font-size: 2.5rem;
 }
 @media (min-width: 40em) {
   header .hero {
@@ -493,6 +493,7 @@ header .toggle-menu > a {
   margin-bottom: 10rem;
   border: none;
   color: hsl(0deg, 0%, 100%);
+  border: 1px solid hsl(0deg, 0%, 0%);
   background-color: hsl(0deg, 0%, 0%);
 }
 @media (min-width: 87.5em) {
@@ -669,9 +670,10 @@ header .toggle-menu > a {
 }
 .footer .footer-right p {
   margin-top: 2.2rem;
+  text-align: center;
   font-family: "Alata", sans-serif;
   font-weight: 300;
-  font-size: 1.4rem;
+  font-size: 1rem;
   color: hsl(0deg, 0%, 55%);
 }
 @media (min-width: 64em) {
